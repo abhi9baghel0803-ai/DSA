@@ -182,6 +182,7 @@ public:
         }
 
         // Swap the data of the two nodes
+        //swapping of two numbers
         int tempData = nodeX->data;
         nodeX->data = nodeY->data;
         nodeY->data = tempData;
